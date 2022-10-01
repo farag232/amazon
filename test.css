@@ -205,6 +205,11 @@
     height: 35rem;
     margin-left: -28rem;
   }
+  .dropdown-signin:hover{
+    border: 1px solid white;
+    overflow: hidden;
+    margin: auto;
+  }
   .dropdown-language:hover .dropdown-language-content,
   .dropdown-signin:hover .dropdown-singin-content {
     display: block;
@@ -1114,6 +1119,26 @@ h4{
 }
 .border-box{
   box-sizing: content-box;
+}
+
+@media (max-width:641px){
+  body{
+      font-size: 12px;
+  }
+
+  .main-content h2{
+      font-size: 0.8em;
+  }
+
+  .main-content h3{
+      font-size: 1.4em;
+  }
+}
+
+@media (max-width:300px){
+  body{
+      font-size: 10px;
+  }
 }
 
  
